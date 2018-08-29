@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RevCom_AgendaTemplate_TC002_Create_Edit_Delete_Template">
+  <listeners>
+		<listener class-name="org.ieee.standards.tests.CustomReportCreator"/>
+	</listeners>
+  <test thread-count="5" name="RevCom_AgendaTemplate_TC002_Create_Edit_Delete_Template">
+    <classes>
+     <class name="org.ieee.standards.tests.CreateMeetingTemplate.RevCom_AgendaTemplate_TC002_Create_Edit_Delete_Template"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

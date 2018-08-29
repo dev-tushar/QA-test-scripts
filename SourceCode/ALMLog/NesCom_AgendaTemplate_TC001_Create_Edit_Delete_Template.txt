@@ -1,0 +1,11 @@
+FAILED
+X:\IEEE_MyProject\SourceCode\target\surefire-reports\NesCom_AgendaTemplate_TC001_Create_Edit_Delete_Template_Report.html
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_28_PM\Test01_Verify_Home_Page_Top_Tabs.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_29_PM\Test02_Verify_Home_Page_Title.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_29_PM\Test03_Verify_Home_Page_Login_Fields.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_34_PM\Test01_Verify_Home_Page_Top_Tabs.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_34_PM\Test02_Verify_Home_Page_Title.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_42_PM\Test01_Verify_Home_Page_Top_Tabs.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_42_PM\Test02_Verify_Home_Page_Title.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_56_PM\Test01_Verify_Home_Page_Top_Tabs.jpg
+X:\IEEE_MyProject\SourceCode\target\screenshots\Home_Page_Test\2018_06_25_06_56_PM\Test02_Verify_Home_Page_Title.jpg

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" IEEE Automated Test Suite" preserve-order="true">
+
+	<test name="ManageProfileInterest">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.ManageProfileInterest.ManageProfile_TC001_EditPersonalInformation_And_AccountPreferences" />
+		</classes>
+	</test>
+
+
+</suite>
+
+

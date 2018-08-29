@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" IEEE Automated Test Suite" preserve-order="true">
+
+	<test name="ReportsAndTool">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.ReportsAndTool.ReportsAndTools_TC001_ViewIndividualsReport" />
+		</classes>
+	</test>
+
+
+</suite>
+
+

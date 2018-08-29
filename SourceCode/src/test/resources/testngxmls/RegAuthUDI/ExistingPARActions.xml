@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" IEEE Automated Test Suite" preserve-order="true">
+
+ <listeners>
+		<listener class-name="org.ieee.standards.tests.CustomReportCreator"/>
+	</listeners>
+
+	<test name="Prerequisites_For_ModifyPAR">
+		<classes>
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC002_Submiting_PAR_for_NewStandard" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC003_Sponsor_Acceptance_Of_PAR" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC004_NesCom_SASB_Approval"/>
+		</classes>
+	</test>
+
+	<test name="ExistingPARActions_ModifyPAR">
+		<classes>
+			<class name="org.ieee.standards.tests.ExistingPARActions.ExistingPARActions_ModifyPAR"/>
+		</classes>
+	</test>
+	
+		<test name="Prerequisites_For_ExtendPAR">
+		<classes>
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC002_Submiting_PAR_for_NewStandard" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC003_Sponsor_Acceptance_Of_PAR" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC004_NesCom_SASB_Approval"/>
+		</classes>
+	</test>	
+	<test name="ExistingPARActions_ExtendPAR">
+		<classes>
+			      <class name="org.ieee.standards.tests.ExistingPARActions.ExistingPARActions_ExtendPAR"/>
+		</classes>
+	</test>
+
+	
+		<test name="Prerequisites_For_WithdrawPAR">
+		<classes>
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC002_Submiting_PAR_for_NewStandard" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC003_Sponsor_Acceptance_Of_PAR" />
+			<class name="org.ieee.standards.tests.IndividualTestCases.Individual_TC004_NesCom_SASB_Approval"/>
+		</classes>
+	</test>		<test name="ExistingPARActions_WithdrawPAR">
+		<classes>
+			      <class name="org.ieee.standards.tests.ExistingPARActions.ExistingPARActions_WithdrawPAR"/>
+		</classes>
+	</test>
+</suite>
+
+
+
+

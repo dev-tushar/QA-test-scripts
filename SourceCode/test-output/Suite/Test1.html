@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 28 20:18:19 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>121 seconds (121380 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary()'><b>Step_007_VerifyPublicationsUnderLibrary</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-1174975682" onClick='toggleBox("Output-1174975682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1174975682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1174975682">
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; xpath: //span[contains(text(),'Library')]]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: ul.nav.nav-tabs li.chardinjs-library-settings.bg-white.chardinjs-show-element]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: ul.nav.nav-tabs&gt;li&gt;a]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: All created publications not found under My Documents expected [true] but found [false]
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary(ManualAddPublicationTest.java:102)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1174975682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1174975682'><pre>java.lang.AssertionError: All created publications not found under My Documents expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary(ManualAddPublicationTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>4</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications()'><b>Step_008_VerifyPublicationsUnderMyPublications</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-1717148002" onClick='toggleBox("Output-1717148002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1717148002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1717148002">
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.filter-list&gt;div&gt;label]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: All created publications not found under My Documents expected [true] but found [false]
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications(ManualAddPublicationTest.java:114)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1717148002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1717148002'><pre>java.lang.AssertionError: All created publications not found under My Documents expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications(ManualAddPublicationTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_001_LaunchCollabratecSignInPage()'><b>Step_001_LaunchCollabratecSignInPage</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-144370381" onClick='toggleBox("Output-144370381", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-144370381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-144370381">
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_002_SignInToUser()'><b>Step_002_SignInToUser</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-1839200169" onClick='toggleBox("Output-1839200169", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1839200169" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1839200169">
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: a.btn.btn-sign-in]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.search-input-box span.twitter-typeahead]<br/>
+User successfully signed in to his/her account<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_003_NavigateToAddPublication()'><b>Step_003_NavigateToAddPublication</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-2104540401" onClick='toggleBox("Output-2104540401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2104540401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2104540401">
+User clicked on element[[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: a#ppctWelPProfileLink]<br/>
+User clicked on element[[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.item-inner&gt;a]<br/>
+TEST PASSED: element txt_editPersonalInfo is displayed.<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_004_AddandVerifyJournalPublication()'><b>Step_004_AddandVerifyJournalPublication</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-1569416755" onClick='toggleBox("Output-1569416755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1569416755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1569416755">
+User clicked on element[[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: a.publication-manual-add&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: select#type]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]<br/>
+New journal publication added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_005_AddandVerifyConferencePublication()'><b>Step_005_AddandVerifyConferencePublication</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-1989443815" onClick='toggleBox("Output-1989443815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1989443815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1989443815">
+User clicked on element[[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: a.publication-manual-add&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: select#type]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]<br/>
+New conference publication added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+<tr>
+<td title='org.ieee.collabratec.tests.ManualAddPublicationTest.Step_006_EditAndVerifyJournalPublication()'><b>Step_006_EditAndVerifyJournalPublication</b><br>Test class: org.ieee.collabratec.tests.ManualAddPublicationTest<br/>
+<a href="#Output-455797874" onClick='toggleBox("Output-455797874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455797874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455797874">
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.papers-item-icon.dropdown&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; css selector: div.dropdown-backdrop+ul.dropdown-menu.dropdown-dark a]<br/>
+User clicked on element[[ChromeDriver: chrome on XP (0e9ea14831c956aa2c4f10c8ba163b06)] -&gt; xpath: //button[(contains(text(),'Save'))]]<br/>
+Edit journal publication functionality verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>org.ieee.collabratec.tests.ManualAddPublicationTest@589838eb</td></tr>
+</table><p>
+</body>
+</html>

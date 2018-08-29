@@ -1,0 +1,168 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Withdrawal Ballot Test Cases" preserve-order="true">
+
+  <listeners>
+		<listener class-name="org.ieee.standards.tests.CustomReportCreator"/>
+	</listeners>
+
+	<test name="Withdrawal_TC_002_Initiate_Ballot_Invitation">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_002_Initiate_Ballot_Invitation" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_003_Approve_Ballot_Invitation">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_003_Approve_Ballot_Invitation" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_004_Join_Ballot_User_IEEE_Member">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_004_Join_Ballot_User_IEEE_Member" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_005_Join_Single_Ballot_Non_IEEE_Member">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_005_Join_Single_Ballot_Non_IEEE_Member" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_006_Join_Single_Accept_And_Reject">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_006_Join_Single_Accept_And_Reject" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_007_Close_Invitation">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_007_Close_Invitation" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_008_Initiate_Sponsor_Ballot_Sponsor">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_008_Initiate_Sponsor_Ballot_Sponsor" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_009_Approve_Sponsor_Ballot">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_009_Approve_Sponsor_Ballot" />
+		</classes>
+	</test>
+
+	<test
+		name="Withdrawal_TC_012_A_Close_Ballot_And_Ballot_Stage_Is_Ballot_Failed">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_012_A_Close_Ballot_And_Ballot_Stage_Is_Ballot_Failed" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_010_Vote_On_Ballot">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_010_Vote_On_Ballot" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_011_Comment_On_Ballot_Upload_Comment">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_011_Comment_On_Ballot_Upload_Comment" />
+		</classes>
+	</test>
+
+	<test
+		name="Withdrawal_TC_012_B_Close_Ballot_And_Ballot_Stage_Is_Comment_Resolution">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_012_B_Close_Ballot_And_Ballot_Stage_Is_Comment_Resolution" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC_013_Comment_Resolution_Response_Upload">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_013_Comment_Resolution_Response_Upload" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC014_Submit_To_Revcom">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_014_Submit_To_Revcom" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC015_Alert_Include_In_RevCom_Agenda">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_015_Alert_Include_In_RevCom_Agenda" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC016_Send_Notification_To_Ballot_Group">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_016_Send_Notification_To_Ballot_Group" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC017_Ballot_Notification_Verification">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_017_Ballot_Notification_Verification" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC018_Export_Ballot_Summary_To_PDF">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_018_Export_Ballot_Summary_To_PDF" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC019_Verification_Of_Links_On_ViewBallotDetails">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_019_Verification_Of_Links_On_ViewBallotDetails" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC020_OnRevCom_SubmissionPage_MarkBallotComplete">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_020_OnRevCom_SubmissionPage_MarkBallotComplete" />
+		</classes>
+	</test>
+
+	<test name="Withdrawal_TC021_Revcom_SASB_Approval_FinalizeBallot">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_021_Revcom_SASB_Approval_FinalizeBallot" />
+		</classes>
+	</test>
+	
+	<test name="Withdrawal_TC022_Validate_The_Withdrawal_Standard_Updated_On_All_PARs_Projects">
+		<classes>
+			<class
+				name="org.ieee.standards.tests.WithdrawalTestCases.Withdrawal_TC_022_Validate_The_Withdrawal_Standard_Updated_On_All_PARs_Projects" />
+		</classes>
+	</test>
+ 
+</suite>
+
+
+
+

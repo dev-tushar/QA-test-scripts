@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>IEEE | MyProject - TestNG Report</title>
+<style type="text/css">
+table {table-layout: fixed; margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #E5F4E5}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F0D7D7}
+.failedeven td,.stripe .numi_attn {background-color: #F0D7D7}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<h1><center>IEEE | MyProject - Automation Report On <a target="_blank" href="http://myprojectqa.standards.ieee.org/myproject-web/rest/signin">Staging</a> Environment</center></h1>
+<table align="center" cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Tests Passed</th><th>Tests Skipped</th><th>Tests Failed</th><th>Total<br/>Tests</th><th>Total<br/>Time</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Default test</a></td><td style="background-color:#E5F4E5">6</td><td style="background-color:#CCC">0</td><td class="numi_attn">2</td><td class="numi">8</td><td class="numi">398.7 seconds</td></tr>
+</table>
+<table align="center" cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th>Error Message</th><th style="max-width:90px">Start Time</th><th>Total Time<br/>(sec)</th></tr>
+<tr id="t1"><th colspan="5">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">ManualAddPublicationTest</td><td><a href="#m1"><b>Step_007_VerifyPublicationsUnderLibrary</b>  </a></td><td><b>@URL: <a target="_blank" href="Unable to capture failure URL : unable to load page">Unable to capture failure URL : unable to load page</a></b><br><br>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)</td><td style="max-width:90px">Aug 29 2018</br>12:24:06 IST</td><td class="numi">125</td></tr><tr class="failedodd"><td><a href="#m2"><b>Step_008_VerifyPublicationsUnderMyPublications</b>  </a></td><td><b>@URL: <a target="_blank" href="Unable to capture failure URL : unable to load page">Unable to capture failure URL : unable to load page</a></b><br><br>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)</td><td style="max-width:90px">Aug 29 2018</br>12:26:16 IST</td><td class="numi">120</td></tr>
+<tr><th colspan="5">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">ManualAddPublicationTest</td><td><a href="#m3"><b>Step_001_LaunchCollabratecSignInPage</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:21:59 IST</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m4"><b>Step_002_SignInToUser</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:22:15 IST</td><td class="numi">57</td></tr><tr class="passedodd"><td><a href="#m5"><b>Step_003_NavigateToAddPublication</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:23:13 IST</td><td class="numi">18</td></tr><tr class="passedodd"><td><a href="#m6"><b>Step_004_AddandVerifyJournalPublication</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:23:31 IST</td><td class="numi">7</td></tr><tr class="passedodd"><td><a href="#m7"><b>Step_005_AddandVerifyConferencePublication</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:23:39 IST</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m8"><b>Step_006_EditAndVerifyJournalPublication</b>  </a></td><td></td><td style="max-width:90px">Aug 29 2018</br>12:23:52 IST</td><td class="numi">13</td></tr>
+</table>
+<h2 id="m1">ManualAddPublicationTest:Step_007_VerifyPublicationsUnderLibrary</h2>
+<div>
+<h3>Test Messages</h3>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //span[contains(text(),'Library')]]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs li.chardinjs-library-settings.bg-white.chardinjs-show-element]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs&gt;li&gt;a]<br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;ACLA048P2850&apos;, ip: &apos;10.0.15.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.getDocumentTitles(LibraryPageActions.java:32)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary(ManualAddPublicationTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">ManualAddPublicationTest:Step_008_VerifyPublicationsUnderMyPublications</h2>
+<div>
+<div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;ACLA048P2850&apos;, ip: &apos;10.0.15.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.clickOnMyPublicationFilter(LibraryPageActions.java:42)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications(ManualAddPublicationTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">ManualAddPublicationTest:Step_001_LaunchCollabratecSignInPage</h2>
+<div>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">ManualAddPublicationTest:Step_002_SignInToUser</h2>
+<div>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.btn.btn-sign-in]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.search-input-box span.twitter-typeahead]<br/>
+User successfully signed in to his/her account<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">ManualAddPublicationTest:Step_003_NavigateToAddPublication</h2>
+<div>
+User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a#ppctWelPProfileLink]<br/>
+User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.item-inner&gt;a]<br/>
+TEST PASSED: element txt_editPersonalInfo is displayed.<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">ManualAddPublicationTest:Step_004_AddandVerifyJournalPublication</h2>
+<div>
+User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]<br/>
+New journal publication added successfully<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">ManualAddPublicationTest:Step_005_AddandVerifyConferencePublication</h2>
+<div>
+User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]<br/>
+New conference publication added successfully<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">ManualAddPublicationTest:Step_006_EditAndVerifyJournalPublication</h2>
+<div>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.papers-item-icon.dropdown&gt;i]<br/>
+Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.dropdown-backdrop+ul.dropdown-menu.dropdown-dark a]<br/>
+User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //button[(contains(text(),'Save'))]]<br/>
+Edit journal publication functionality verified successfully<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> Report customized by QAIT Automation team </center>
+</body></html>

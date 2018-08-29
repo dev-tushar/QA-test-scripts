@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\tusharsrivastava1\AppData\Local\Temp\testng-eclipse-2080521496\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_007_VerifyPublicationsUnderLibrary">Step_007_VerifyPublicationsUnderLibrary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_008_VerifyPublicationsUnderMyPublications">Step_008_VerifyPublicationsUnderMyPublications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_001_LaunchCollabratecSignInPage">Step_001_LaunchCollabratecSignInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_002_SignInToUser">Step_002_SignInToUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_003_NavigateToAddPublication">Step_003_NavigateToAddPublication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_004_AddandVerifyJournalPublication">Step_004_AddandVerifyJournalPublication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_005_AddandVerifyConferencePublication">Step_005_AddandVerifyConferencePublication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="org.ieee.collabratec.tests.ManualAddPublicationTest" hash-for-method="Step_006_EditAndVerifyJournalPublication">Step_006_EditAndVerifyJournalPublication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.ieee.collabratec.tests.ManualAddPublicationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_007_VerifyPublicationsUnderLibrary">
+                  </a> <!-- Step_007_VerifyPublicationsUnderLibrary -->
+                  <span class="method-name">Step_007_VerifyPublicationsUnderLibrary</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;ACLA048P2850&apos;, ip: &apos;10.0.15.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.getDocumentTitles(LibraryPageActions.java:32)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary(ManualAddPublicationTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_008_VerifyPublicationsUnderMyPublications">
+                  </a> <!-- Step_008_VerifyPublicationsUnderMyPublications -->
+                  <span class="method-name">Step_008_VerifyPublicationsUnderMyPublications</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;ACLA048P2850&apos;, ip: &apos;10.0.15.35&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.clickOnMyPublicationFilter(LibraryPageActions.java:42)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications(ManualAddPublicationTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.ieee.collabratec.tests.ManualAddPublicationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_001_LaunchCollabratecSignInPage">
+                  </a> <!-- Step_001_LaunchCollabratecSignInPage -->
+                  <span class="method-name">Step_001_LaunchCollabratecSignInPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_002_SignInToUser">
+                  </a> <!-- Step_002_SignInToUser -->
+                  <span class="method-name">Step_002_SignInToUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_003_NavigateToAddPublication">
+                  </a> <!-- Step_003_NavigateToAddPublication -->
+                  <span class="method-name">Step_003_NavigateToAddPublication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_004_AddandVerifyJournalPublication">
+                  </a> <!-- Step_004_AddandVerifyJournalPublication -->
+                  <span class="method-name">Step_004_AddandVerifyJournalPublication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_005_AddandVerifyConferencePublication">
+                  </a> <!-- Step_005_AddandVerifyConferencePublication -->
+                  <span class="method-name">Step_005_AddandVerifyConferencePublication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step_006_EditAndVerifyJournalPublication">
+                  </a> <!-- Step_006_EditAndVerifyJournalPublication -->
+                  <span class="method-name">Step_006_EditAndVerifyJournalPublication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tusharsrivastava1\AppData\Local\Temp\testng-eclipse-2080521496\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.ieee.collabratec.tests.ManualAddPublicationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;test name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.ieee.collabratec.tests.ManualAddPublicationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;handleTestMethodName&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;close_Test_Session&quot;/&gt;
+          &lt;include name=&quot;Step_008_VerifyPublicationsUnderMyPublications&quot;/&gt;
+          &lt;include name=&quot;Step_007_VerifyPublicationsUnderLibrary&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.ieee.collabratec.tests.ManualAddPublicationTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Default test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Step_007_VerifyPublicationsUnderLibrary')
+data.setCell(0, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(0, 3, 125892);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Step_008_VerifyPublicationsUnderMyPublications')
+data.setCell(1, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(1, 3, 120354);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Step_002_SignInToUser')
+data.setCell(2, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(2, 3, 57371);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Step_003_NavigateToAddPublication')
+data.setCell(3, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(3, 3, 18662);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Step_001_LaunchCollabratecSignInPage')
+data.setCell(4, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(4, 3, 16726);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Step_006_EditAndVerifyJournalPublication')
+data.setCell(5, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(5, 3, 13525);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Step_005_AddandVerifyConferencePublication')
+data.setCell(6, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(6, 3, 13213);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Step_004_AddandVerifyJournalPublication')
+data.setCell(7, 2, 'org.ieee.collabratec.tests.ManualAddPublicationTest')
+data.setCell(7, 3, 7762);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_003_NavigateToAddPublication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a#ppctWelPProfileLink]</span>
+                <span class="reporter-method-output">User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.item-inner&gt;a]</span>
+                <span class="reporter-method-output">TEST PASSED: element txt_editPersonalInfo is displayed.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_001_LaunchCollabratecSignInPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_006_EditAndVerifyJournalPublication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.papers-item-icon.dropdown&gt;i]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.dropdown-backdrop+ul.dropdown-menu.dropdown-dark a]</span>
+                <span class="reporter-method-output">User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //button[(contains(text(),'Save'))]]</span>
+                <span class="reporter-method-output">Edit journal publication functionality verified successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_004_AddandVerifyJournalPublication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]</span>
+                <span class="reporter-method-output">New journal publication added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_005_AddandVerifyConferencePublication</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]</span>
+                <span class="reporter-method-output">New conference publication added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_002_SignInToUser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.btn.btn-sign-in]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.search-input-box span.twitter-typeahead]</span>
+                <span class="reporter-method-output">User successfully signed in to his/her account</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step_007_VerifyPublicationsUnderLibrary</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //span[contains(text(),'Library')]]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs li.chardinjs-library-settings.bg-white.chardinjs-show-element]</span>
+                <span class="reporter-method-output">Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs&gt;li&gt;a]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.ieee.collabratec.tests.ManualAddPublicationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_001_LaunchCollabratecSignInPage...)</span>
+                <span class="method-start">17532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_001_LaunchCollabratecSignInPage</span>
+                <span class="method-start">17533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_001_LaunchCollabratecSignInPage status=SUCCESS method=ManualAddPublicationTest...)</span>
+                <span class="method-start">34266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_002_SignInToUser())</span>
+                <span class="method-start">34271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_002_SignInToUser</span>
+                <span class="method-start">34271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_002_SignInToUser status=SUCCESS method=ManualAddPublicationTest.Step_002_SignI...)</span>
+                <span class="method-start">91643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_003_NavigateToAddPublication())</span>
+                <span class="method-start">91647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_003_NavigateToAddPublication</span>
+                <span class="method-start">91647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_003_NavigateToAddPublication status=SUCCESS method=ManualAddPublicationTest.St...)</span>
+                <span class="method-start">110311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_004_AddandVerifyJournalPublicat...)</span>
+                <span class="method-start">110314 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_004_AddandVerifyJournalPublication</span>
+                <span class="method-start">110314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_004_AddandVerifyJournalPublication status=SUCCESS method=ManualAddPublicationT...)</span>
+                <span class="method-start">118076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_005_AddandVerifyConferencePubli...)</span>
+                <span class="method-start">118081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_005_AddandVerifyConferencePublication</span>
+                <span class="method-start">118081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_005_AddandVerifyConferencePublication status=SUCCESS method=ManualAddPublicati...)</span>
+                <span class="method-start">131299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_006_EditAndVerifyJournalPublica...)</span>
+                <span class="method-start">131302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step_006_EditAndVerifyJournalPublication</span>
+                <span class="method-start">131302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_006_EditAndVerifyJournalPublication status=SUCCESS method=ManualAddPublication...)</span>
+                <span class="method-start">144828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibr...)</span>
+                <span class="method-start">144828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Step_007_VerifyPublicationsUnderLibrary</span>
+                <span class="method-start">144828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_007_VerifyPublicationsUnderLibrary status=FAILURE method=ManualAddPublicationT...)</span>
+                <span class="method-start">270733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPu...)</span>
+                <span class="method-start">274690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Step_008_VerifyPublicationsUnderMyPublications</span>
+                <span class="method-start">274690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Step_008_VerifyPublicationsUnderMyPublications status=FAILURE method=ManualAddPubli...)</span>
+                <span class="method-start">395048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close_Test_Session</span>
+                <span class="method-start">398661 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

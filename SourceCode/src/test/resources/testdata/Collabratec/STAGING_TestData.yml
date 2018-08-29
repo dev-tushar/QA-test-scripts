@@ -1,0 +1,11 @@
+baseUrl: https://ieee-collabratecqa.ieee.org/login
+
+Alerts:
+ removeFromBallotAlert: "Are you sure you want to remove yourself from the ballot for"
+
+userDetails:
+   firstname: "AutomationQAf"
+   lastname: "AutomationQAl"
+   password: "welcome@123"
+
+ 

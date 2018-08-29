@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="8" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[The application url is :- https://ieee-collabratecqa.ieee.org/login]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.btn.btn-sign-in]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.search-input-box span.twitter-typeahead]]]>
+    </line>
+    <line>
+      <![CDATA[User successfully signed in to his/her account]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a#ppctWelPProfileLink]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.item-inner&gt;a]]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_editPersonalInfo is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]]]>
+    </line>
+    <line>
+      <![CDATA[New journal publication added successfully]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]]]>
+    </line>
+    <line>
+      <![CDATA[New conference publication added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.papers-item-icon.dropdown&gt;i]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.dropdown-backdrop+ul.dropdown-menu.dropdown-dark a]]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //button[(contains(text(),'Save'))]]]]>
+    </line>
+    <line>
+      <![CDATA[Edit journal publication functionality verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //span[contains(text(),'Library')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs li.chardinjs-library-settings.bg-white.chardinjs-show-element]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs&gt;li&gt;a]]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : D:\IEEE\IEEE_MyProject\IEEE_MyProject\SourceCode\./target/screenshots/\ManualAddPublicationTest\2018_08_29_12_26_PM\Step_007_VerifyPublicationsUnderLibrary.jpg]]>
+    </line>
+    <line>
+      <![CDATA[Save Image File Path : D:\IEEE\IEEE_MyProject\IEEE_MyProject\SourceCode\./target/screenshots/\ManualAddPublicationTest\2018_08_29_12_28_PM\Step_008_VerifyPublicationsUnderMyPublications.jpg]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="398728" started-at="2018-08-29T06:51:41Z" finished-at="2018-08-29T06:58:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="398728" started-at="2018-08-29T06:51:41Z" finished-at="2018-08-29T06:58:20Z">
+      <class name="org.ieee.collabratec.tests.ManualAddPublicationTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="beforeMethod" is-config="true" duration-ms="17526" started-at="2018-08-29T12:21:41Z" finished-at="2018-08-29T12:21:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[The application url is :- https://ieee-collabratecqa.ieee.org/login]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="1" started-at="2018-08-29T12:21:59Z" finished-at="2018-08-29T12:21:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_001_LaunchCollabratecSignInPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="Step_001_LaunchCollabratecSignInPage()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_001_LaunchCollabratecSignInPage" duration-ms="16726" started-at="2018-08-29T12:21:59Z" finished-at="2018-08-29T12:22:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_001_LaunchCollabratecSignInPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-08-29T12:22:15Z" finished-at="2018-08-29T12:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_001_LaunchCollabratecSignInPage status=SUCCESS method=ManualAddPublicationTest.Step_001_LaunchCollabratecSignInPage()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div#header-menu&gt;ul&gt;li.top-links-out.sign-in&gt;a]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_001_LaunchCollabratecSignInPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Step_002_SignInToUser()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_002_SignInToUser" duration-ms="57371" started-at="2018-08-29T12:22:15Z" finished-at="2018-08-29T12:23:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.btn.btn-sign-in]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.search-input-box span.twitter-typeahead]]]>
+            </line>
+            <line>
+              <![CDATA[User successfully signed in to his/her account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_002_SignInToUser -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:22:15Z" finished-at="2018-08-29T12:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_002_SignInToUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="3" started-at="2018-08-29T12:23:13Z" finished-at="2018-08-29T12:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_002_SignInToUser status=SUCCESS method=ManualAddPublicationTest.Step_002_SignInToUser()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.btn.btn-sign-in]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_002_SignInToUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Step_003_NavigateToAddPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_003_NavigateToAddPublication" duration-ms="18662" started-at="2018-08-29T12:23:13Z" finished-at="2018-08-29T12:23:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a#ppctWelPProfileLink]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.item-inner&gt;a]]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_editPersonalInfo is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_003_NavigateToAddPublication -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:23:13Z" finished-at="2018-08-29T12:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_003_NavigateToAddPublication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-08-29T12:23:31Z" finished-at="2018-08-29T12:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_003_NavigateToAddPublication status=SUCCESS method=ManualAddPublicationTest.Step_003_NavigateToAddPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#ppctHdrProfileLink&gt;a&gt;i]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_003_NavigateToAddPublication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Step_004_AddandVerifyJournalPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_004_AddandVerifyJournalPublication" duration-ms="7762" started-at="2018-08-29T12:23:31Z" finished-at="2018-08-29T12:23:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]]]>
+            </line>
+            <line>
+              <![CDATA[New journal publication added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_004_AddandVerifyJournalPublication -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:23:31Z" finished-at="2018-08-29T12:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_004_AddandVerifyJournalPublication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="5" started-at="2018-08-29T12:23:39Z" finished-at="2018-08-29T12:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_004_AddandVerifyJournalPublication status=SUCCESS method=ManualAddPublicationTest.Step_004_AddandVerifyJournalPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_004_AddandVerifyJournalPublication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Step_005_AddandVerifyConferencePublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_005_AddandVerifyConferencePublication" duration-ms="13213" started-at="2018-08-29T12:23:39Z" finished-at="2018-08-29T12:23:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: select#type]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.wrapper-buttons&gt;button.btn.secondary-button-blue]]]>
+            </line>
+            <line>
+              <![CDATA[New conference publication added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_005_AddandVerifyConferencePublication -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:23:39Z" finished-at="2018-08-29T12:23:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_005_AddandVerifyConferencePublication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-08-29T12:23:52Z" finished-at="2018-08-29T12:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_005_AddandVerifyConferencePublication status=SUCCESS method=ManualAddPublicationTest.Step_005_AddandVerifyConferencePublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: a.publication-manual-add&gt;i]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_005_AddandVerifyConferencePublication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Step_006_EditAndVerifyJournalPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_006_EditAndVerifyJournalPublication" duration-ms="13525" started-at="2018-08-29T12:23:52Z" finished-at="2018-08-29T12:24:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.papers-item-icon.dropdown&gt;i]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: div.dropdown-backdrop+ul.dropdown-menu.dropdown-dark a]]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on element[[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //button[(contains(text(),'Save'))]]]]>
+            </line>
+            <line>
+              <![CDATA[Edit journal publication functionality verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_006_EditAndVerifyJournalPublication -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:23:52Z" finished-at="2018-08-29T12:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_006_EditAndVerifyJournalPublication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="FAIL" signature="Step_007_VerifyPublicationsUnderLibrary()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_007_VerifyPublicationsUnderLibrary" duration-ms="125892" started-at="2018-08-29T12:24:06Z" finished-at="2018-08-29T12:26:12Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ACLA048P2850', ip: '10.0.15.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ACLA048P2850', ip: '10.0.15.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.getDocumentTitles(LibraryPageActions.java:32)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary(ManualAddPublicationTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //span[contains(text(),'Library')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs li.chardinjs-library-settings.bg-white.chardinjs-show-element]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: ul.nav.nav-tabs&gt;li&gt;a]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_007_VerifyPublicationsUnderLibrary -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-08-29T12:24:06Z" finished-at="2018-08-29T12:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_006_EditAndVerifyJournalPublication status=SUCCESS method=ManualAddPublicationTest.Step_006_EditAndVerifyJournalPublication()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; css selector: li#menu-claimedPapers&gt;a&gt;i]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_006_EditAndVerifyJournalPublication() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:24:06Z" finished-at="2018-08-29T12:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="3957" started-at="2018-08-29T12:26:12Z" finished-at="2018-08-29T12:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_007_VerifyPublicationsUnderLibrary status=FAILURE method=ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output=Clicked element [[ChromeDriver: chrome on XP (a2a61bea2ccea93782120d45b6ae6c38)] -&gt; xpath: //span[contains(text(),'Library')]]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_007_VerifyPublicationsUnderLibrary() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : D:\IEEE\IEEE_MyProject\IEEE_MyProject\SourceCode\./target/screenshots/\ManualAddPublicationTest\2018_08_29_12_26_PM\Step_007_VerifyPublicationsUnderLibrary.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="Step_008_VerifyPublicationsUnderMyPublications()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="Step_008_VerifyPublicationsUnderMyPublications" duration-ms="120354" started-at="2018-08-29T12:26:16Z" finished-at="2018-08-29T12:28:16Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ACLA048P2850', ip: '10.0.15.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ACLA048P2850', ip: '10.0.15.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: a2a61bea2ccea93782120d45b6ae6c38
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at org.ieee.collabratec.utils.SeleniumWait.waitForElementsToBeVisible(SeleniumWait.java:66)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:152)
+	at org.ieee.collabratec.getpageobjects.GetPage.elements(GetPage.java:160)
+	at org.ieee.collabratec.keywords.LibraryPageActions.clickOnMyPublicationFilter(LibraryPageActions.java:42)
+	at org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications(ManualAddPublicationTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_008_VerifyPublicationsUnderMyPublications -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-29T12:26:16Z" finished-at="2018-08-29T12:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="afterMethod" is-config="true" duration-ms="3613" started-at="2018-08-29T12:28:16Z" finished-at="2018-08-29T12:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Step_008_VerifyPublicationsUnderMyPublications status=FAILURE method=ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void org.ieee.collabratec.tests.ManualAddPublicationTest.Step_008_VerifyPublicationsUnderMyPublications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Save Image File Path : D:\IEEE\IEEE_MyProject\IEEE_MyProject\SourceCode\./target/screenshots/\ManualAddPublicationTest\2018_08_29_12_28_PM\Step_008_VerifyPublicationsUnderMyPublications.jpg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:org.ieee.collabratec.tests.ManualAddPublicationTest@3abbfa04]" name="close_Test_Session" is-config="true" duration-ms="48" started-at="2018-08-29T12:28:20Z" finished-at="2018-08-29T12:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- org.ieee.collabratec.tests.ManualAddPublicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
